@@ -57,6 +57,9 @@ body {
 /* Features Section (Grid Item) */
 #features {
     grid-column: span 1; /* Span across one column */
+    background-color: #000a24; /* Set background color to #000a24 */
+    color: white; /* Change text color to white */
+    padding: 40px 20px;
 }
 
 .features-container {
@@ -77,13 +80,13 @@ body {
 
 .feature-item h3 {
     font-size: 1.3rem;
-    color: #333;
+    color: white; /* Ensure feature titles are white */
     margin-top: 10px;
 }
 
 .feature-item p {
     font-size: 1rem;
-    color: #777;
+    color: white; /* Ensure feature descriptions are white */
     margin-top: 10px;
 }
 

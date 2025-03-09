@@ -109,19 +109,21 @@ body {
     margin-bottom: 20px;
 }
 
+/* Updated Button Styling (Call-to-action) */
 button {
     padding: 15px 30px;
-    background-color: #0071e3;
+    background-color: #a1c6f7; /* Light blue background */
     border: none;
-    color: white;
+    color: #000a24; /* Dark blue text color */
     font-size: 1.2rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
+/* Button hover effect */
 button:hover {
-    background-color: #005bb5;
+    background-color: #0071e3; /* Darker blue on hover */
 }
 
 /* Responsive Layout for Tablets and Mobile Devices */
